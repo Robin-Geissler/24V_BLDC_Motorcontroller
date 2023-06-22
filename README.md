@@ -25,7 +25,7 @@ The torque applied to the gearbox shaft is measured with a TS70a torque sensor f
 ![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/f5d216d4-578c-44d6-b3aa-a41fdf9dd2f0)
 
 ## Comunication Interface
-The controller provides an EtherCAT communication interface. Over the interface the controlmode can be set, and PID controlparameters for each controller can be set.
+The controller provides an EtherCAT communication interface. Over the interface the controlmode can be set, and PID controlparameters for each controller can be manipulated.
 
 ## Hardware
 A Microchip ATSAMD51G19A is used as an MCU. It controls a MP6540HA motordriver IC.
