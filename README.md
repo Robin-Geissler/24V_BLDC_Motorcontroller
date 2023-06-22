@@ -17,19 +17,22 @@ Calculates the speed by analysing the HAL Sector change rate.
 
 **Position Control**
 The position of the geaboxshaft is measured with an AksIM-2 absolute encoder from RLS. The control structure of the position controller looks like this:
-![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/fc7e9df8-951c-478b-ab78-733c7016a6b3)
+![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/23616d61-726f-4471-8209-4c4ee24acf8d)
+
 
 
 **Torque Control**
 The torque applied to the gearbox shaft is measured with a TS70a torque sensor from ME-Meßsysteme. The control structure of the torque controller looks like this:
-![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/f5d216d4-578c-44d6-b3aa-a41fdf9dd2f0)
+![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/867ea04d-c174-4072-b0a7-ee8d4df544fd)
+
 
 ## Comunication Interface
 The controller provides an EtherCAT communication interface. Over the interface the controlmode can be set, and PID controlparameters for each controller can be manipulated.
 
 ## Hardware
 A Microchip ATSAMD51G19A is used as an MCU. It controls a MP6540HA motordriver IC.
-![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/be280116-988d-47a6-a963-ef39ac5042fa)
+![grafik](https://github.com/Robin-Geissler/24V_BLDC_Motorcontroller/assets/38495785/42268a68-4c14-4efa-a114-c72518d6bee1)
+
 
 
 
